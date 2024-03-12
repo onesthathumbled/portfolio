@@ -1,0 +1,67 @@
+.Home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.Photo {
+  border-radius: 50%;
+  /* width: 400px; */
+  /* filter: grayscale(100%); */
+  margin-right: 20px;
+}
+
+.Details {
+  width: 420px;
+}
+
+.HTitle {
+  font-size: 100px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.HSubTitle {
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.HParagraph {
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.HLinks {
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.HLink {
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 15px;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  transition: all 0.3s;
+}
+
+.HLink:hover {
+  background-color: #fff;
+}
+
+.yellow {
+  background-color: #eea302;
+}
+
+.red {
+  background-color: #ff3b25;
+}
+
+.cyan {
+  background-color: #80d8da;
+}

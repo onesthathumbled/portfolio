@@ -1,0 +1,30 @@
+.Footer {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.FWidth {
+  width: 24px;
+  height: 30px;
+}
+
+.FContacts {
+  margin-top: 30px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+.FTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.FSubTitle {
+  font-size: 15px;
+}
+
+.FIcon {
+  margin-right: 10px;
+}

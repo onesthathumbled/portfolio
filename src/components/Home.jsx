@@ -13,9 +13,10 @@ const Home = () => {
         <p className="HTitle">Hello</p>
         <p className="HSubTitle">A Bit About Me</p>
         <p className="HParagraph">
-          I'm a paragraph. Click here to add your own text and edit me. I’m a
-          great place for you to tell a story and let your users know a little
-          more about you.
+          I'm a seasoned software engineer excelling in innovative solutions,
+          programming, and collaborative teamwork. Meticulous and
+          deadline-driven, I stay updated on the latest technologies to deliver
+          high-impact results aligned with company goals.
         </p>
         <div className="HLinks">
           <Link className="HLink yellow" to="/resume">

@@ -39,3 +39,23 @@
   content: "|";
   padding: 0 10px;
 }
+
+.HamburgerMenu {
+  display: none;
+}
+
+@media screen and (max-width: 412px) {
+  .Navbar {
+  }
+
+  .Links {
+    display: none;
+  }
+
+  .HamburgerMenu {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

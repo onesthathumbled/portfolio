@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 
 const Navbar = () => {
   return (
@@ -24,6 +25,10 @@ const Navbar = () => {
         <Link to="/contact" className="Link">
           Contact
         </Link>
+      </div>
+
+      <div className="HamburgerMenu">
+        <MenuOutlinedIcon fontSize="large" />
       </div>
     </div>
   );

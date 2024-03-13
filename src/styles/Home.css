@@ -67,7 +67,7 @@
   background-color: #80d8da;
 }
 
-@media (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
   .Photo {
     width: 400px;
   }
@@ -76,7 +76,7 @@
 @media screen and (max-width: 860px) {
   .Home {
     /* width: 95%; */
-    height: 85%;
+    height: 90%;
     overflow: hidden;
     display: flex;
     flex-direction: column-reverse;

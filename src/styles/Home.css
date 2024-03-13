@@ -76,7 +76,7 @@
 @media screen and (max-width: 860px) {
   .Home {
     /* width: 95%; */
-    height: 90%;
+    height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column-reverse;

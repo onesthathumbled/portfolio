@@ -67,10 +67,16 @@
   background-color: #80d8da;
 }
 
-@media screen and (max-width: 412px) {
+@media (max-width: 1000px) {
+  .Photo {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 860px) {
   .Home {
     /* width: 95%; */
-    height: 100%;
+    height: 85%;
     overflow: hidden;
     display: flex;
     flex-direction: column-reverse;
@@ -80,7 +86,7 @@
   }
 
   .Photo {
-    width: 350px;
+    width: 370px;
     margin-right: 0;
     /* margin-bottom: 20px; */
   }
@@ -107,12 +113,14 @@
   .HLinks {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 25px 0;
   }
 
   .HLink {
-    padding: 20px 20px;
+    /* padding: 20px 20px; */
+    width: 20%;
+    text-align: center;
     margin-right: 0;
   }
 }

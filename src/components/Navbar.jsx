@@ -2,8 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
+import ClearOutlinedIcon from "@mui/icons-material/ClearOutlined";
 
-const Navbar = () => {
+const Navbar = ({ hamburgerMenu, handleHamburgerMenu }) => {
   return (
     <div className="Navbar">
       <Link to="/" className="Logo">
@@ -27,9 +28,27 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div className="HamburgerMenu">
-        <MenuOutlinedIcon fontSize="large" />
+      <div className="HamburgerMenu" onClick={handleHamburgerMenu}>
+        {hamburgerMenu ? (
+          <ClearOutlinedIcon fontSize="large" />
+        ) : (
+          <MenuOutlinedIcon fontSize="large" />
+        )}
       </div>
+
+      {hamburgerMenu && (
+        <div className="Menu">
+          <Link to="/resume" className="NLink" onClick={handleHamburgerMenu}>
+            Resume
+          </Link>
+          <Link to="/projects" className="NLink" onClick={handleHamburgerMenu}>
+            Projects
+          </Link>
+          <Link to="/contact" className="NLink" onClick={handleHamburgerMenu}>
+            Contact
+          </Link>
+        </div>
+      )}
     </div>
   );
 };

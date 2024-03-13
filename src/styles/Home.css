@@ -70,6 +70,7 @@
 @media screen and (max-width: 1000px) {
   .Photo {
     width: 400px;
+    /* margin-bottom: 250px; */
   }
 }
 
